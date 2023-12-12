@@ -1686,7 +1686,7 @@ transition: all .3s ease;
 }
 .tab-content{
   border: 1px solid #ddd;
-  min-height: 230fpx;
+  min-height: 230px;
   padding: 15px;
 }
 .socila-media .nav-tabs .nav-link:hover, .socila-media .nav-tabs .nav-link:focus {
