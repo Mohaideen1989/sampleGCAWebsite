@@ -1,10 +1,10 @@
-﻿
+
 /*=== MEDIA QUERY ===*/
 @import url("https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&family=Montserrat:wght@400;700&family=Poppins:wght@300;400;600;700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;600&family=Open+Sans:wght@300;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 .social_icon {
-	
+	padding-left:20px;
 	margin-left:0px;
 }
 .social_icon li{
@@ -16,6 +16,28 @@
 .social_icon li a{
 	color:#fff;
 }
+
+.nav-link  i.fa-bell{
+     font-size: 24px;
+   }
+   .badge {
+    color: #ffffff;
+    position: absolute;
+    width: 18px;
+    background: red;
+    border-radius: 50px;
+        top: 5px;
+    left: 21px;
+   }
+   .notification {
+    position: relative;
+    display: inline-block;
+   
+   }
+   #navbar .notification{
+    background-color: transparent !important;
+    color: #0a5956 !important;
+   }
 
 .navbar-nav .dropdown-menu{
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
@@ -1666,7 +1688,6 @@ transition: all .3s ease;
   border: 1px solid #ddd;
   min-height: 230fpx;
   padding: 15px;
-	height:230px;
 }
 .socila-media .nav-tabs .nav-link:hover, .socila-media .nav-tabs .nav-link:focus {
   border-color: #0a5956 #0a5956 #0a5956;
