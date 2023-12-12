@@ -1666,6 +1666,7 @@ transition: all .3s ease;
   border: 1px solid #ddd;
   min-height: 230fpx;
   padding: 15px;
+	height:230px;
 }
 .socila-media .nav-tabs .nav-link:hover, .socila-media .nav-tabs .nav-link:focus {
   border-color: #0a5956 #0a5956 #0a5956;
